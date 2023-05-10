@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Comic+Neue:ital,wght@1,700&family=Lora:ital,wght@1,500&family=Montserrat&family=Noto+Sans+Egyptian+Hieroglyphs&family=Quicksand:wght@300&family=Raleway:wght@100&family=Seaweed+Script&family=Sedgwick+Ave+Display&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #060616;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.img-banner{
+	display: none;
+}
+
+.img-info{
+	width: 100%;
+}
+
+.img-info h2{
+	padding: 30px 30px 20px;
+	font-size: 50px;
+	color: white;
+	line-height: 44px;
+	font-family: 'Lora', serif
+}
+
+.img-info p{
+	padding: 0px 30px 20px;
+	font-family: arial;
+	font-size: 16px;
+	color: white;
+	line-height: 24px;
+}
+
+.img-info h4 {
+	padding: 0px 30px 20px;
+	font-family: 'Lora', serif;
+    color: white;
+    font-size: 25px;
+}
+
+.img-me{
+    width: 100%;
+}
+
+
+
+header {
+	background-image: linear-gradient(rgba(42, 58, 74, 0.85), rgba(42, 58, 74, 0.85)), url(picture3.png);
+	height: 7.5vh;
+	background-size: cover;
+	background-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+ 
+	.wrapper{
+	width: 600px;
+	margin: 0 auto;
+	}
+
+	.img-info h2{
+	padding: 20px 0px 0px;
+}
+
+.img-info p{
+	padding: 20px 0px 0px;
+
+}
+
+.img-me{
+    padding-top: 30px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    .wrapper{
+	width: 1000px;
+	}
+
+	.img-info{
+	width: 50%;
+	float: right;
+  }
+
+  .img-me{
+    padding-top: 0px;
+    width: 50%;
+    float: left;
+   }
+
+
+   	.img-info h2{
+	padding: 20px 0px 0px  30px;
+  }
+
+    .img-info p{
+	padding: 20px 0px 0px  30px;
+
+  }
+
+  
+}
