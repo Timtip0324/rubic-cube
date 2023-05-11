@@ -23,6 +23,7 @@
 	color: white;
 	line-height: 44px;
 	font-family: 'Lora', serif
+
 }
 
 .img-info p{
@@ -75,6 +76,7 @@ header {
 
 
 }
+/*gfc*/
 
 
 @media only screen and (min-width: 1000px) {
